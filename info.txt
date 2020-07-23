@@ -9,3 +9,4 @@
 5.-npx webpack --entry ./index.js --output ./bundle.js
     npx webpack --entry ./index.js --output ./bundle.js --mode development
 
+6.-
