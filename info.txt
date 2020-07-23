@@ -1,3 +1,11 @@
 1.- npm init
 
 2.- npm i -D -E webpack
+
+3.-npm install -D -E webpack-cli
+
+4.-npx webpack -v
+
+5.-npx webpack --entry ./index.js --output ./bundle.js
+    npx webpack --entry ./index.js --output ./bundle.js --mode development
+
