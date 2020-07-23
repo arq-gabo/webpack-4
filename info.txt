@@ -9,4 +9,7 @@
 5.-npx webpack --entry ./index.js --output ./bundle.js
     npx webpack --entry ./index.js --output ./bundle.js --mode development
 
-6.-
+6.-npm run build
+    npm run build:external
+    npm run build:local
+    npm run build:multi
