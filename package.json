@@ -1,0 +1,22 @@
+{
+  "name": "webpack-4",
+  "version": "1.0.0",
+  "description": "Curso Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arq-gabo/webpack-4.git"
+  },
+  "author": "arq-gabo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arq-gabo/webpack-4/issues"
+  },
+  "homepage": "https://github.com/arq-gabo/webpack-4#readme",
+  "devDependencies": {
+    "webpack": "4.32.2"
+  }
+}
