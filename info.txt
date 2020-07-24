@@ -1,8 +1,8 @@
 1.- npm init
 
-2.- npm i -D -E webpack
+2.- npm i -D -E webpack@4.32.2
 
-3.-npm install -D -E webpack-cli
+3.-npm install -D -E webpack-cli@3.3.2
 
 4.-npx webpack -v
 
@@ -13,3 +13,8 @@
     npm run build:external
     npm run build:local
     npm run build:multi
+    npm run build:css
+
+7.-npm install -D -E css-loader@2.1.1
+
+8.-npm i -D -E style-loader
