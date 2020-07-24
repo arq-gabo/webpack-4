@@ -7,7 +7,7 @@
 4.-npx webpack -v
 
 5.-npx webpack --entry ./index.js --output ./bundle.js
-    npx webpack --entry ./index.js --output ./bundle.js --mode development
+   npx webpack --entry ./index.js --output ./bundle.js --mode development
 
 6.-npm run build
     npm run build:external
@@ -30,3 +30,7 @@
 12.-npm i -D -E @babel/plugin-transform-runtime@7.4.4
 
 13.-npm i --save --save-exact @babel/runtime@7.4.5
+
+14.-npm i -D -E @babel/preset-react@7.0.0
+
+15.-npm i --save -E react@16.8.6 react-dom@16.8.6
