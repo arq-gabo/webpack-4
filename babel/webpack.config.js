@@ -13,9 +13,9 @@ module.exports = {
         filename: 'js/[name].js'
     },
     devServer: {
-        hot: true,
-        open: true,
-        port: 9000
+         hot: true,
+         open: true,
+         port: 9000
     },
     module: {
         rules: [

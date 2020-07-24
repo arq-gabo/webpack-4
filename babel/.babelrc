@@ -3,6 +3,9 @@
 //plugins para soportar las nuevas capacidades de javascript
 //presets = configuraciones
 {
+    "plugins": [
+        "@babel/plugin-transform-runtime"
+    ],
     "presets": [
         "@babel/preset-env"
     ]
