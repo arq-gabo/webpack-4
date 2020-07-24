@@ -1,0 +1,9 @@
+//Archivo de configuraciones de reglas extras para soportar react vue
+
+//plugins para soportar las nuevas capacidades de javascript
+//presets = configuraciones
+{
+    "presets": [
+        "@babel/preset-env"
+    ]
+}
