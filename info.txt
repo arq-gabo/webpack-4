@@ -14,7 +14,10 @@
     npm run build:local
     npm run build:multi
     npm run build:css
+    npm run build:plugins
 
 7.-npm install -D -E css-loader@2.1.1
 
 8.-npm i -D -E style-loader
+
+9.-npm i -D -E mini-css-extract-plugin0.7.0 html-webpack-plugin@3.2.0
