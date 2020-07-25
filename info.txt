@@ -34,3 +34,9 @@
 14.-npm i -D -E @babel/preset-react@7.0.0
 
 15.-npm i --save -E react@16.8.6 react-dom@16.8.6
+
+16.-npm i -D -E url-loader@1.1.2
+
+17.-npm i -E -D file-loader@3.0.1
+
+
