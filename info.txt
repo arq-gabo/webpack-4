@@ -39,4 +39,11 @@
 
 17.-npm i -E -D file-loader@3.0.1
 
+18.-npm install -D -E less-loader@5.0.0
+    npm install -D -E postcss-loader@3.0.0
+    npm install -D -E stylus-loader@3.0.2
+    npm install -D -E sass-loader@7.1.0
 
+19.-npm install -D -E stylus@0.54.5 less@3.9.0 node-sass@4.12.0
+
+20.-npm install -D -E postcss-nested
