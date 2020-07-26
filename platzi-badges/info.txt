@@ -1,0 +1,32 @@
+webpack
+webpack-cli - cliente de webpack
+html-webpack-plugin
+webpack-dev-server - necesitamos prender servideres de desarrollo
+css-loader - archivos solo tiene archivos css normal
+style-loader - vamos a inyectar css en el html dinamicamente con javascript
+file-loader - por que vamos a cargar archivos
+babel-loader - por que tenemos que entender codigo moderno de javascript
+@babel/core - viene con babel-loader
+@babel/preset-env - viene con sus configuraciones de babel-loader
+@babel/preset-react - requiere por ser un proyecto en react
+
+dependencias opcionales dependiendo las caracteristicas del proyecto
+@babel/plugin-syntax-dynamic-import x
+@babel/plugin-transform-runtime x
+
+si quieres usar funciones asyncronas
+@babel/runtime
+
+npm install -D -E @babel/core@7.4.5
+npm install -D -E @babel/plugin-syntax-dynamic-import@7.2.0 
+npm install -D -E @babel/plugin-transform-runtime@7.4.4
+npm install -D -E @babel/preset-env@7.4.5
+npm install -D -E @babel/preset-react@7.0.0
+npm install -D -E babel-loader@8.0.6
+npm install -D -E css-loader@2.1.1
+npm install -D -E file-loader@4.0.0
+npm install -D -E html-webpack-plugin@3.2.0
+npm install -D -E style-loader@0.23.1
+npm install -D -E webpack@4.33.0
+npm install -D -E webpack-cli@3.3.2
+npm install -D -E webpack-dev-server@3.6.0
