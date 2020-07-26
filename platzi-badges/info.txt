@@ -30,3 +30,8 @@ npm install -D -E style-loader@0.23.1
 npm install -D -E webpack@4.33.0
 npm install -D -E webpack-cli@3.3.2
 npm install -D -E webpack-dev-server@3.6.0
+
+por el proyecto de react
+npm install -D -S @babel/plugin-proposal-class-properties@7.4.4
+
+npm i -S -D mini-css-extract-plugin@0.7.0 url-loader@2.0.0
