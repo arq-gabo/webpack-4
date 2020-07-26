@@ -35,3 +35,5 @@ por el proyecto de react
 npm install -D -S @babel/plugin-proposal-class-properties@7.4.4
 
 npm i -S -D mini-css-extract-plugin@0.7.0 url-loader@2.0.0
+
+npm install -D -S add-asset-html-webpack-plugin@3.1.3

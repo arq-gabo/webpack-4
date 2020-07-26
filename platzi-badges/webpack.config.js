@@ -1,7 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
+const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -10,7 +11,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'js/[name].js',
-        publicPath: 'http://localhost:3001',
+        publicPath: 'http://localhost:3001/',
         chunkFilename: 'js/[id].[chunkhash].js'
     },
     module: {
@@ -50,6 +51,11 @@ module.exports = {
         }),
         new webpack.DllReferencePlugin({
             manifest: require('./modules-manifest.json')
+        }),
+        new AddAssetHtmlPlugin({
+            filepath: path.resolve(__dirname, 'dist/js/*.dll.js'),
+            outputPath: 'js',
+            publicPath: 'http://localhost:3001/js'
         })
     ],
 }
